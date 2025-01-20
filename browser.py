@@ -17,9 +17,9 @@ class WebEnginePage(QWebEnginePage):
         else:
             super(WebEnginePage, self).triggerAction(action, checked)
 
-class SanBrowser(QMainWindow):
+class Zenith(QMainWindow):
     def __init__(self):
-        super(SanBrowser, self).__init__()
+        super(Zenith, self).__init__()
         self.setWindowTitle('San Browser')
         self.setGeometry(100, 100, 1200, 800)
         self.setStyleSheet(self.get_styles())
@@ -194,7 +194,7 @@ class SanBrowser(QMainWindow):
         """
 
 execution = QApplication([])
-execution.setApplicationName('San Browser')
-window = SanBrowser()
+execution.setApplicationName('Zenith')
+window = Zenith()
 window.show()
 execution.exec_()
