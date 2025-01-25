@@ -8,3 +8,4 @@ Features :
 Known issues :
 
 * Can't fulscreen on Youtube
+* Has one of the non-cleanest code ive seen 🔥
